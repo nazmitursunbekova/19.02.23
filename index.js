@@ -11,9 +11,15 @@ surnameIs("Tursunbekova");
 
 //functionName(height, radius)
 function getConeVolume(h, r) {
-  let V = 0
-  let pi = 3.14
+  let V = 0;
+  let pi = 3.14;
   console.log( V = (h * pi * (r  2) / 3));
 }
 getConeVolume(10., 5);
 
+// 3// Длина строки равна ...
+
+function strLength(text) {
+  console.log(text.length);
+}
+strLength("This is another")
