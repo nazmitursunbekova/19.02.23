@@ -22,4 +22,20 @@ getConeVolume(10., 5);
 function strLength(text) {
   console.log(text.length);
 }
-strLength("This is another")
+strLength("This is another");
+
+// 4// functionName(num) // Число - четное || Число - нечетное
+function isEven(num){
+  if(num % 2 === 0){
+  console.log("even - " + num)
+ }
+ else if(num % 2 === 1){
+    console.log("odd - " + num)
+ }
+ else{
+   console.log("error - " + num)
+ }
+}
+isEven(2);
+isEven(5);
+isEven("gfhgf");
