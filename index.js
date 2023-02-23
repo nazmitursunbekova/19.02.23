@@ -132,3 +132,13 @@ for (let i = 2; i <= 10; i++) {
 let phrase = ["I", "like","to", "eat"];
 console.log(phrase. join( ));
 
+
+ //18 ["three", "two", "one"]
+ let numer = ["one",  "two" , "three"];
+for (let i = 0; i <numer.length; i ++){
+  console.log( numer[i] );
+}
+
+ for (let i = numer.length - 1; i>=0; i--) {
+   console.log( numer[i]);
+ }
