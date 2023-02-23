@@ -100,3 +100,9 @@ while (num1 <= 25) {
   console.log(num1);
   num1++;
 }
+//  //12
+for (let i =2; i <= 20; i ++) {
+  if (i %  2 == 0){
+    console.log(i)
+ }
+}
