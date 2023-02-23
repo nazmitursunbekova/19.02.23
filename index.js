@@ -142,3 +142,18 @@ for (let i = 0; i <numer.length; i ++){
  for (let i = numer.length - 1; i>=0; i--) {
    console.log( numer[i]);
  }
+// //19
+let trainer = ["Ermek"];
+for (let i = 0; i < trainer.length; i++) {
+ console.log("Hello" + trainer[i]);
+}
+
+let volunter = ["Erlan"];
+for (let i = 0; i < volunter.length; i++) {
+  console.log("Hello" + volunter[i]);
+}
+
+let mentor = ["Erjan"];
+for (let i = 0; i < mentor.length; i++) {
+  console.log("Hello" + mentor[i]);
+}
