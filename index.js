@@ -128,4 +128,7 @@ for (let i = 2; i <= 10; i++) {
   }
 }
 
+// //17
+let phrase = ["I", "like","to", "eat"];
+console.log(phrase. join( ));
 
