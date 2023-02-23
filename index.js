@@ -113,3 +113,9 @@ for (let i = 1; i < 15; i+=1) {
     console.log(i);
   }
 }
+
+// //14
+let fruits = ["mango","avokado"];
+fruits.push("banana", "orange"); //adds
+fruits.unshift("cocos", "mandarine", "kivi"); //adds in the begining
+console.log(fruits)
