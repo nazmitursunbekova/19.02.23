@@ -85,3 +85,16 @@ console.log(triangle(5,3,6,9,5));
    factor = i * factor;
  }
  console.log( "8.(8!)" );
+
+
+ // // 10
+ function numSquer(n) {
+  let x = ' ';
+    let  y  = 0;
+     for (let i =1; i <= n; i++) {
+         y  += (2 * i - 1);
+         x += y + ' ' ;
+     }
+     return x;
+   }
+  console.log(numSquer(3));
