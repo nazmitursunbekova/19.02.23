@@ -1,5 +1,5 @@
 //1//
- function nameIs(name) {
+function nameIs(name) {
   console.log("my name is " + name);
 }
 function surnameIs(name) {
@@ -44,57 +44,59 @@ function isPositive(num) {
 }
 
 //6 // вернуть положительное число
- function toPositive(num) {
+function toPositive(num) {
   if (num >= 0) {
-   return num;
+    return num;
   } else {
-   return num * -1;
-   }
- }
+    return num * -1;
+  }
+}
 
-
- //5 // //5 квадрат числа
-function square(num){
-  return num** 2
- }
-console.log(square(5))
-
-
+//5 // //5 квадрат числа
+function square(num) {
+  return num ** 2;
+}
+console.log(square(5));
 
 // 6// functionName(num) // Корень этого числа равен
 function root(a) {
-  return Math.sqrt(a)
+  return Math.sqrt(a);
 }
-console.log(root(25))
+console.log(root(25));
 
-
- // 7  functionName(a, b, c, d, e) // Периметр - ...
+// 7  functionName(a, b, c, d, e) // Периметр - ...
 function triangle(a, b, c, d, e) {
   return a + b + c + d + e;
 }
-console.log(triangle(5,3,6,9,5));
+console.log(triangle(5, 3, 6, 9, 5));
 
 // 8// 0 3 6 9 ...
 
- for ( i = 0; i < 35; i +=3) {
-   console.log(i);
- }
- //9  
- let factor = 1;
- for ( i = 1; i < 9; i++) {
-   factor = i * factor;
- }
- console.log( "8.(8!)" );
+for (i = 0; i < 35; i += 3) {
+  console.log(i);
+}
+//9
+let factor = 1;
+for (i = 1; i < 9; i++) {
+  factor = i * factor;
+}
+console.log("8.(8!)");
 
+// // 10
+function numSquer(n) {
+  let x = " ";
+  let y = 0;
+  for (let i = 1; i <= n; i++) {
+    y += 2 * i - 1;
+    x += y + " ";
+  }
+  return x;
+}
+console.log(numSquer(3));
 
- // // 10
- function numSquer(n) {
-  let x = ' ';
-    let  y  = 0;
-     for (let i =1; i <= n; i++) {
-         y  += (2 * i - 1);
-         x += y + ' ' ;
-     }
-     return x;
-   }
-  console.log(numSquer(3));
+// 11//
+let num1 = 1;
+while (num1 <= 25) {
+  console.log(num1);
+  num1++;
+}
