@@ -163,3 +163,11 @@ for (let i in elem) {
   elem[i] = elem[i] ** 2;
 }
 console.log(elem);
+
+
+// //21
+// // cat - true
+// // parrot - false
+let animals =  ["cat", "dog", "snake"] ;
+ console.log(animals.indexOf('cat') != -1);
+ console.log(animals.includes('parrot'));
