@@ -53,12 +53,15 @@ function isPositive(num) {
 
 
  // //5 // //5 квадрат числа
- function square(num){
-  return num  2
- }
-console.log(square(5))
-
- function square(num){
+function square(num){
   return num** 2
  }
 console.log(square(5))
+
+
+
+// // 6// functionName(num) // Корень этого числа равен
+function root(a) {
+  return Math.sqrt(a)
+}
+console.log(root(25))
