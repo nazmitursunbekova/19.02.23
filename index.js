@@ -106,3 +106,10 @@ for (let i =2; i <= 20; i ++) {
     console.log(i)
  }
 }
+
+//  //13
+for (let i = 1; i < 15; i+=1) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
