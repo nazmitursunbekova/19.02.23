@@ -1,4 +1,5 @@
-function nameIs(name) {
+//1//
+ function nameIs(name) {
   console.log("my name is " + name);
 }
 function surnameIs(name) {
@@ -8,7 +9,7 @@ function surnameIs(name) {
 nameIs("Nazmi");
 surnameIs("Tursunbekova");
 
-//functionName(height, radius)
+//  2  functionName(height, radius)
 function getConeVolume(h, r) {
   let V = 0;
   let pi = 3.14;
@@ -37,12 +38,12 @@ isEven(2);
 isEven(5);
 isEven("gfhgf");
 
-// // positive(num) // проверка на положительное число (true || false)
+//5 // positive(num) // проверка на положительное число (true || false)
 function isPositive(num) {
   return num >= 0;
 }
 
-// // вернуть положительное число
+//6 // вернуть положительное число
  function toPositive(num) {
   if (num >= 0) {
    return num;
@@ -52,7 +53,7 @@ function isPositive(num) {
  }
 
 
- // //5 // //5 квадрат числа
+ //5 // //5 квадрат числа
 function square(num){
   return num** 2
  }
@@ -60,7 +61,7 @@ console.log(square(5))
 
 
 
-// // 6// functionName(num) // Корень этого числа равен
+// 6// functionName(num) // Корень этого числа равен
 function root(a) {
   return Math.sqrt(a)
 }
@@ -78,3 +79,9 @@ console.log(triangle(5,3,6,9,5));
  for ( i = 0; i < 35; i +=3) {
    console.log(i);
  }
+ //9  
+ let factor = 1;
+ for ( i = 1; i < 9; i++) {
+   factor = i * factor;
+ }
+ console.log( "8.(8!)" );
