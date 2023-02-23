@@ -70,7 +70,7 @@ function triangle(a, b, c, d, e) {
 }
 console.log(triangle(5, 3, 6, 9, 5));
 
-// 8// 0 3 6 9 ...
+// 8// 
 
 for (i = 0; i < 35; i += 3) {
   console.log(i);
